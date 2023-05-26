@@ -14,9 +14,17 @@ Distributed by Tooplate.com
  License:  GARAGE template is under Creative Commons Attribution 4.0 International License.
  Template: GARAGE
  */
-
+a{
+	font-size: 16;
+}
+p{
+	font-size: 14;
+}
 body{
-	background: rgb(142, 139, 160);
+	background: rgb(158, 156, 169);
+}
+p{
+	font-size: large;
 }
 .allcontain{
 	background: whitesmoke;
@@ -199,7 +207,14 @@ padding-left: 5%;
  	color: #fff;
  }
  .dropdowncostume{
+	height: 600;
+	overflow-y: auto;
  	margin-left: 0px;
+ }
+ .toggle-costume{
+	height: 600;
+	overflow-y: auto;
+	margin-left: 0px;
  }
  .navbar-default .toggle-costume:hover,
 .navbar-default .toggle-costume:focus {
@@ -222,6 +237,7 @@ padding-left: 5%;
   border-bottom: 2px solid #c54747; 
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	
 	font-family: 'calibri';
 	font-size: 13pt;
 	color: #000;
@@ -229,10 +245,16 @@ padding-left: 5%;
 	text-align: center;
 
 }
+.dropdown-menu {
+	height: 600;
+	overflow-y: auto;
+}
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
 	background-color: #fff;
 }
 .dropdown.open .dropdown-menu {
+	height: 600;
+	overflow-y: auto;
     max-height: 200px;
     opacity: 1;
 }
@@ -260,14 +282,15 @@ padding-left: 5%;
 	float: right;
 }
 #navbarontop{
-	 padding-left: 0px;
+
+	padding-left: 0px;
 	padding-top: 26px; 
 	height: 250px;
 }
 #navbarontop>li>a{
 	margin-left: 0px;
 	padding-left: 50px;
-	font-size: 13pt;
+	font-size: 13pt;	
 	margin-bottom: 10px;
 
 }
@@ -276,6 +299,8 @@ padding-left: 5%;
  
  }
 .navbar-default .navbar-nav .open .dropdowncostume > li > a {
+	height: 600;
+	overflow-y: auto;
 	text-align: left;
 	margin-left: 40px;
 }
@@ -309,6 +334,11 @@ float: right;
 	padding-top: 40px; 
 	height: 250px;
 }
+
+#navbarontop>li{
+	height: 800;
+	overflow-y: auto;
+}
 #navbarontop>li>a{
 	margin-left: 0px;
 	padding-left: 50px;
@@ -316,7 +346,16 @@ float: right;
 	margin-bottom: 10px;
 
 }
+.open{
+	
+	height: 600;
+	overflow-y: auto;
+	margin-left: 0px;
+	
+}
 .navbar-default .navbar-nav .open .dropdowncostume > li > a {
+	height: 600;
+	overflow-y: auto;
 	text-align: left;
 	margin-left: 40px;
 }
@@ -380,7 +419,7 @@ font-size: 15.88pt;
 }
  
 .carousel-caption>p{
-font-size: 10pt;
+font-size: 18pt;
 }	
 }
  
@@ -449,6 +488,7 @@ font-size: 10pt;
 	border: 1px solid #fff!important;
 }
 .navbarborder>li>a:hover{
+	
 	color: maroon !important;
 	background-color: #fff!important;
 
@@ -460,6 +500,7 @@ font-size: 10pt;
 	padding-right: 0px;
 }
 .searchform{
+	
 	padding-right: 64px;
 	background: none;
 	background-color: none;
@@ -702,9 +743,7 @@ padding-left: 0px;
 	color: #fff;
 
  }
- .searchtxt>h1{
- 	font-size: 0pt;
-}
+
 .searchbutton{
 display: block;
 margin-right: auto;
@@ -757,7 +796,7 @@ font-weight: bold;
 @media screen and (min-width: 320px) and (max-width: 480px){
 	.feturedsection>h1{
 	background: whitesmoke;
-	font-size: 15pt;
+	font-size: 25pt;
 	padding-top: 20px;
 	padding-bottom: 20px;
  
@@ -811,7 +850,7 @@ font-weight: bold;
 }
 .featurecontant>h1{
 	font-family: "calibri";
-	font-size: 19.8px;
+	font-size: 29.8px;
 	text-align: center;
 	color: #5B5B5B;
 	margin-top:14%;
@@ -820,13 +859,13 @@ font-weight: bold;
 }
 .featurecontant>p{
 	font-family: "calibri";
-	font-size: 11.44px;
+	font-size: 16.44px;
 	text-align: center;
 	color: #5B5B5B;
 }
 .featurecontant>h2{
 	font-family: "calibri";
-	font-size: 12.41pt;
+	font-size: 18.41pt;
 	color: #020243;
 	text-align: center;
 	letter-spacing: 8px;
@@ -883,7 +922,7 @@ font-weight: bold;
 }
 #readmore>p{
 	font-family: "calibri";
-	font-size: 11.44px;
+	font-size: 16.44px;
 	text-align: center;
 	color: #5B5B5B;
 	margin-right: 20px;
@@ -927,7 +966,7 @@ font-weight: bold;
 }
 #readmore2>p{
 	font-family: "calibri";
-	font-size: 11.44px;
+	font-size: 16.44px;
 	text-align: center;
 	color: #5B5B5B;
 	margin-right: 20px;
@@ -1040,7 +1079,7 @@ margin-left: auto;
 }
 .sortby{
 	font-family: "calibri";
-	font-size: 16px;
+	font-size: 26px;
 	color: #262626;
 }
 .latestlist{
@@ -1064,7 +1103,7 @@ margin-left: auto;
 .latest-navleft>li>a{
 	color: #6D6D6D;
 	font-family: "calibri";
-	font-size: 14.8px;
+	font-size: 19.8px;
 	border: 0px;
 	padding-top: 0px;
  
@@ -1143,7 +1182,7 @@ font-weight: bold;
 @media screen and (min-width: 768px) and (max-width: 1067px){
 .sortby{
 	font-family: "calibri";
-	font-size: 14px;
+	font-size: 18px;
 	color: #262626;
 }
 .latestlist{
@@ -1198,13 +1237,13 @@ padding-left: 0px;
 }
 .simpletxt>h3{
 	font-family: "calibri";
-	font-size: 13.6px;
+	font-size: 15.6px;
 	color:#E7E7E7;
 	margin: 0px;
 }
 .simpletxt>p{
 	font-family: "calibri";
-	font-size: 11.2px;
+	font-size: 14px;
 	color: #E7E7E7;
 	padding-top: 7px;
 }
