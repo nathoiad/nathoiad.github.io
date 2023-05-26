@@ -15,8 +15,11 @@ Distributed by Tooplate.com
  Template: GARAGE
  */
 
-
+body{
+	background: rgb(142, 139, 160);
+}
 .allcontain{
+	background: whitesmoke;
 	font-family: Calibri;
 	max-width: 1366px;
 	margin-left: auto;
@@ -31,6 +34,7 @@ Distributed by Tooplate.com
 	
 }
 .header .container{
+	background: whitesmoke;
 	padding: 0px;
 }
 
@@ -142,7 +146,7 @@ padding-left: 5%;
 
 }
 .topnav{
-	background: none;
+	background: whitesmoke;
 }
 .topnavbar .container{
 	margin-left: 107px !important;
@@ -728,6 +732,7 @@ font-weight: bold;
 /*   ---------------------------   fetured cars   ---------------------------------    */
 
 .feturedsection>h1{
+	background: whitesmoke;
 	font-family: "calibri";
 	font-size: 41px;
 	padding-top: 46px;
@@ -751,6 +756,7 @@ font-weight: bold;
 
 @media screen and (min-width: 320px) and (max-width: 480px){
 	.feturedsection>h1{
+	background: whitesmoke;
 	font-size: 15pt;
 	padding-top: 20px;
 	padding-bottom: 20px;
